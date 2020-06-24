@@ -34,6 +34,7 @@ body {
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
+	box-sizing: border-box;
 }
 input,
 button,
@@ -85,14 +86,19 @@ body {
 }
 
 .container {
-	max-width: 1140px;
+	max-width: 1170px;
 	padding: 0 15px;
 	margin: 0 auto;
 }
-.container-flid {
+.container-fluid {
 	max-width: auto;
 	padding: 0 15px;
 	margin: 0 auto;
+}
+@media (max-width: 720px) {
+	.container-fluid {
+		padding: 0 15px;
+	}
 }
 .title {
 	height: 110px;

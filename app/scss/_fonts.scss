@@ -29,3 +29,103 @@
    font-weight: 700;
    font-style: normal;
 }
+
+@font-face {
+   font-family: "icomoon";
+   src: url("../fonts/icomoon.eot?d5as75");
+   src: url("../fonts/icomoon.eot?d5as75#iefix") format("embedded-opentype"),
+      url("../fonts/icomoon.ttf?d5as75") format("truetype"), url("fonts/icomoon.woff?d5as75") format("woff"),
+      url("../fonts/icomoon.svg?d5as75#icomoon") format("svg");
+   font-weight: normal;
+   font-style: normal;
+   font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+   /* use !important to prevent issues with browser extensions that change fonts */
+   font-family: "icomoon" !important;
+   speak: never;
+   font-style: normal;
+   font-weight: normal;
+   font-variant: normal;
+   text-transform: none;
+   line-height: 1;
+
+   /* Better Font Rendering =========== */
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-envelope-o:before {
+   content: "\f003";
+}
+.icon-clock-o:before {
+   content: "\f017";
+}
+.icon-lock:before {
+   content: "\f023";
+}
+.icon-map-marker:before {
+   content: "\f041";
+}
+.icon-leaf:before {
+   content: "\f06c";
+}
+.icon-eye:before {
+   content: "\f06e";
+}
+.icon-bar-chart:before {
+   content: "\f080";
+}
+.icon-bar-chart-o:before {
+   content: "\f080";
+}
+.icon-heart-o:before {
+   content: "\f08a";
+}
+.icon-phone:before {
+   content: "\f095";
+}
+.icon-briefcase:before {
+   content: "\f0b1";
+}
+.icon-group:before {
+   content: "\f0c0";
+}
+.icon-users:before {
+   content: "\f0c0";
+}
+.icon-magic:before {
+   content: "\f0d0";
+}
+.icon-comment-o:before {
+   content: "\f0e5";
+}
+.icon-cloud-download:before {
+   content: "\f0ed";
+}
+.icon-angle-left:before {
+   content: "\f104";
+}
+.icon-angle-right:before {
+   content: "\f105";
+}
+.icon-angle-up:before {
+   content: "\f106";
+}
+.icon-angle-down:before {
+   content: "\f107";
+}
+.icon-smile-o:before {
+   content: "\f118";
+}
+.icon-cart-arrow-down:before {
+   content: "\f218";
+}
+.icon-drivers-license-o:before {
+   content: "\f2c3";
+}
+.icon-id-card-o:before {
+   content: "\f2c3";
+}

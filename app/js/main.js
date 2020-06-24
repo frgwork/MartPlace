@@ -7,18 +7,20 @@ $(function () {
    });
 
    $('.fslaider__box').slick({
-      nextArrow: '<button class="slick-arrow slick-prev"><img src="images/next.svg" alt="1"></button>',
-      prevArrow: '<button class="slick-arrow slick-next"><img src="images/prev.svg" alt="2"></button>',
+      nextArrow: '<button class="slick-arrow slick-prev"></button>',
+      prevArrow: '<button class="slick-arrow slick-next"></button>',
       fade: true,
    });
 
    $('.followers__products-box').slick({
-      nextArrow: '<button class="slick-arrow slick-prev"><img src="images/next.svg" alt="3"></button>',
-      prevArrow: '<button class="slick-arrow slick-next"><img src="images/prev.svg" alt="4"></button>',
+      nextArrow: '<button class="slick-arrow slick-prev"></button>',
+      prevArrow: '<button class="slick-arrow slick-next"></button>',
       infinite: true,
       speed: 300,
+      variableWidth: true,
       slidesToShow: 3,
-      slidesToScroll: 3
+      slidesToScroll: 3,
+      readOnly: true
 
    });
 

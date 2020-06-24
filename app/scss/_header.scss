@@ -404,25 +404,60 @@
       }
       & .heart {
          color: #555555;
+         position: relative;
+         padding-left: 20px;
+         &::before {
+            content: "\f08a";
+            font-family: "icomoon" !important;
+            color: #7347c1;
+            font-size: 15px;
+            position: absolute;
+            left: 0;
+         }
       }
       & .cart {
          color: #0674ec;
+         position: relative;
+         padding-left: 20px;
+         &::before {
+            content: "\f218";
+            font-family: "icomoon" !important;
+            color: #0674ec;
+            font-size: 15px;
+            position: absolute;
+            left: 0;
+         }
       }
    }
 }
 //!
+.slick-slide {
+   margin-right: 20px;
+}
 .slick-arrow {
    position: absolute;
-   &.slick-prev {
-      position: absolute;
-      right: 100px;
-      top: -112px;
-   }
+   color: #fff;
+   font-size: 24px;
    &.slick-next {
-      position: absolute;
-      right: 44px;
+      right: 118px;
+      top: -118px;
+      &::before {
+         content: "\f104";
+         font-family: "icomoon" !important;
+         position: absolute;
+         left: 0;
+      }
+   }
+   &.slick-prev {
+      right: 64px;
       z-index: 2;
-      top: -112px;
+      top: -118px;
+      &::before {
+         content: "\f105";
+         font-family: "icomoon" !important;
+         position: absolute;
+         left: 0;
+      }
    }
 }
 //! fslaider end
@@ -569,9 +604,29 @@
       }
       & .heart {
          color: #6f7d8d;
+         position: relative;
+         padding-left: 20px;
+         &::before {
+            content: "\f08a";
+            font-family: "icomoon" !important;
+            color: #7f4ec2;
+            font-size: 15px;
+            position: absolute;
+            left: 0;
+         }
       }
       & .cart {
          color: #0674ec;
+         position: relative;
+         padding-left: 20px;
+         &::before {
+            content: "\f218";
+            font-family: "icomoon" !important;
+            color: #0674ec;
+            font-size: 15px;
+            position: absolute;
+            left: 0;
+         }
       }
    }
 
@@ -592,7 +647,8 @@
    padding: 120px 0;
    background-color: #eff1f5;
    &__products-box {
-      display: flex;
+      max-width: 1140px;
+      width: 100%;
    }
    &__header {
       margin-bottom: 50px;
@@ -609,5 +665,10 @@
       background-color: #0674ec;
    }
 }
-
 //! followers end
+//! cloud start
+.cloud {
+   padding: 100px 0 200px;
+   background-color: #212225;
+}
+//! cloud end

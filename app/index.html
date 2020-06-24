@@ -309,18 +309,18 @@
 				</div>
 
 				<div class="release__products-btn">
-					<button class="active">Plugins</button>
-					<button>WordPress</button>
-					<button>Site Template</button>
-					<button>PSD Template</button>
-					<button>Joomla</button>
-					<button>User Interface</button>
-					<button>Landing Page</button>
-					<button>Software</button>
+					<button class="active" data-filter="category-a">Plugins</button>
+					<button data-filter=".category-b">WordPress</button>
+					<button data-filter=".category-c">Site Template</button>
+					<button data-filter=".category-d">PSD Template</button>
+					<button data-filter=".category-e">Joomla</button>
+					<button data-filter=".category-f">User Interface</button>
+					<button data-filter=".category-g">Landing Page</button>
+					<button data-filter=".category-h">Software</button>
 				</div>
 
 				<div class="release__products-box">
-					<div class="release__item">
+					<div class="release__item mix category-a" data-order="1">
 						<a class="release__img" href="#"
 							style="background-image: url(images/content/newe__products.jpg);"></a>
 						<div class="release__content">
@@ -343,7 +343,7 @@
 							<div class="rate-star"></div>
 						</div>
 					</div>
-					<div class="release__item">
+					<div class="release__item mix category-b" data-order="2">
 						<a class="release__img" href="#"
 							style="background-image: url(images/content/newe__products.jpg);"></a>
 						<div class="release__content">
@@ -366,7 +366,7 @@
 							<div class="rate-star"></div>
 						</div>
 					</div>
-					<div class="release__item">
+					<div class="release__item mix category-b" data-order="3">
 						<a class="release__img" href="#"
 							style="background-image: url(images/content/newe__products.jpg);"></a>
 						<div class="release__content">
@@ -389,7 +389,7 @@
 							<div class="rate-star"></div>
 						</div>
 					</div>
-					<div class="release__item">
+					<div class="release__item mix category-c" data-order="4">
 						<a class="release__img" href="#"
 							style="background-image: url(images/content/newe__products.jpg);"></a>
 						<div class="release__content">
@@ -412,7 +412,7 @@
 							<div class="rate-star"></div>
 						</div>
 					</div>
-					<div class="release__item">
+					<div class="release__item mix category-d category-c" data-order="5">
 						<a class="release__img" href="#"
 							style="background-image: url(images/content/newe__products.jpg);"></a>
 						<div class="release__content">
@@ -435,7 +435,7 @@
 							<div class="rate-star"></div>
 						</div>
 					</div>
-					<div class="release__item">
+					<div class="release__item mix category-e category-a" data-order="6">
 						<a class="release__img" href="#"
 							style="background-image: url(images/content/newe__products.jpg);"></a>
 						<div class="release__content">
@@ -460,7 +460,7 @@
 					</div>
 				</div>
 				<div class="release__products-all">
-					<button>All New Products</button>
+					<button data-filter="all">All New Products</button>
 				</div>
 
 			</div>
@@ -468,7 +468,221 @@
 
 		<section class="followers">
 			<div class="container">
-				
+				<div class="followers__header title">
+					<div class="followers__title">Your Followers Feed</div>
+					<div class="followers__control">
+					</div>
+				</div>
+
+				<div class="followers__products-box">
+					<div class="release__item">
+						<a class="release__img" href="#"
+							style="background-image: url(images/content/newe__products.jpg);"></a>
+						<div class="release__content">
+							<div class="release__item-title">One Page Resume Template 1</div>
+							<div class="release__item-features">
+								<a class="author" href="#">AazzTech</a>
+								<a class="product" href="#">WordPress</a>
+							</div>
+							<div class="release__item-text">
+								Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis,
+								leo quam aliquet congue.
+							</div>
+						</div>
+						<div class="release__item-price">
+							<div>
+								<a class="price" href="#">$10 - $50</a>
+								<a class="heart" href="#">46</a>
+								<a class="cart" href="#">634</a>
+							</div>
+							<div class="rate-star"></div>
+						</div>
+					</div>
+					<div class="release__item">
+						<a class="release__img" href="#"
+							style="background-image: url(images/content/newe__products.jpg);"></a>
+						<div class="release__content">
+							<div class="release__item-title">One Page Resume Template 2</div>
+							<div class="release__item-features">
+								<a class="author" href="#">AazzTech</a>
+								<a class="product" href="#">WordPress</a>
+							</div>
+							<div class="release__item-text">
+								Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis,
+								leo quam aliquet congue.
+							</div>
+						</div>
+						<div class="release__item-price">
+							<div>
+								<a class="price" href="#">$10 - $50</a>
+								<a class="heart" href="#">46</a>
+								<a class="cart" href="#">634</a>
+							</div>
+							<div class="rate-star"></div>
+						</div>
+					</div>
+					<div class="release__item">
+						<a class="release__img" href="#"
+							style="background-image: url(images/content/newe__products.jpg);"></a>
+						<div class="release__content">
+							<div class="release__item-title">One Page Resume Template 3</div>
+							<div class="release__item-features">
+								<a class="author" href="#">AazzTech</a>
+								<a class="product" href="#">WordPress</a>
+							</div>
+							<div class="release__item-text">
+								Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis,
+								leo quam aliquet congue.
+							</div>
+						</div>
+						<div class="release__item-price">
+							<div>
+								<a class="price" href="#">$10 - $50</a>
+								<a class="heart" href="#">46</a>
+								<a class="cart" href="#">634</a>
+							</div>
+							<div class="rate-star"></div>
+						</div>
+					</div>
+					<div class="release__item">
+						<a class="release__img" href="#"
+							style="background-image: url(images/content/newe__products.jpg);"></a>
+						<div class="release__content">
+							<div class="release__item-title">One Page Resume Template 4</div>
+							<div class="release__item-features">
+								<a class="author" href="#">AazzTech</a>
+								<a class="product" href="#">WordPress</a>
+							</div>
+							<div class="release__item-text">
+								Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis,
+								leo quam aliquet congue.
+							</div>
+						</div>
+						<div class="release__item-price">
+							<div>
+								<a class="price" href="#">$10 - $50</a>
+								<a class="heart" href="#">46</a>
+								<a class="cart" href="#">634</a>
+							</div>
+							<div class="rate-star"></div>
+						</div>
+					</div>
+					<div class="release__item">
+						<a class="release__img" href="#"
+							style="background-image: url(images/content/newe__products.jpg);"></a>
+						<div class="release__content">
+							<div class="release__item-title">One Page Resume Template 5</div>
+							<div class="release__item-features">
+								<a class="author" href="#">AazzTech</a>
+								<a class="product" href="#">WordPress</a>
+							</div>
+							<div class="release__item-text">
+								Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis,
+								leo quam aliquet congue.
+							</div>
+						</div>
+						<div class="release__item-price">
+							<div>
+								<a class="price" href="#">$10 - $50</a>
+								<a class="heart" href="#">46</a>
+								<a class="cart" href="#">634</a>
+							</div>
+							<div class="rate-star"></div>
+						</div>
+					</div>
+					<div class="release__item">
+						<a class="release__img" href="#"
+							style="background-image: url(images/content/newe__products.jpg);"></a>
+						<div class="release__content">
+							<div class="release__item-title">One Page Resume Template 6</div>
+							<div class="release__item-features">
+								<a class="author" href="#">AazzTech</a>
+								<a class="product" href="#">WordPress</a>
+							</div>
+							<div class="release__item-text">
+								Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis,
+								leo quam aliquet congue.
+							</div>
+						</div>
+						<div class="release__item-price">
+							<div>
+								<a class="price" href="#">$10 - $50</a>
+								<a class="heart" href="#">46</a>
+								<a class="cart" href="#">634</a>
+							</div>
+							<div class="rate-star"></div>
+						</div>
+					</div>
+					<div class="release__item">
+						<a class="release__img" href="#"
+							style="background-image: url(images/content/newe__products.jpg);"></a>
+						<div class="release__content">
+							<div class="release__item-title">One Page Resume Template 7</div>
+							<div class="release__item-features">
+								<a class="author" href="#">AazzTech</a>
+								<a class="product" href="#">WordPress</a>
+							</div>
+							<div class="release__item-text">
+								Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis,
+								leo quam aliquet congue.
+							</div>
+						</div>
+						<div class="release__item-price">
+							<div>
+								<a class="price" href="#">$10 - $50</a>
+								<a class="heart" href="#">46</a>
+								<a class="cart" href="#">634</a>
+							</div>
+							<div class="rate-star"></div>
+						</div>
+					</div>
+					<div class="release__item">
+						<a class="release__img" href="#"
+							style="background-image: url(images/content/newe__products.jpg);"></a>
+						<div class="release__content">
+							<div class="release__item-title">One Page Resume Template 8</div>
+							<div class="release__item-features">
+								<a class="author" href="#">AazzTech</a>
+								<a class="product" href="#">WordPress</a>
+							</div>
+							<div class="release__item-text">
+								Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis,
+								leo quam aliquet congue.
+							</div>
+						</div>
+						<div class="release__item-price">
+							<div>
+								<a class="price" href="#">$10 - $50</a>
+								<a class="heart" href="#">46</a>
+								<a class="cart" href="#">634</a>
+							</div>
+							<div class="rate-star"></div>
+						</div>
+					</div>
+					<div class="release__item">
+						<a class="release__img" href="#"
+							style="background-image: url(images/content/newe__products.jpg);"></a>
+						<div class="release__content">
+							<div class="release__item-title">One Page Resume Template 9</div>
+							<div class="release__item-features">
+								<a class="author" href="#">AazzTech</a>
+								<a class="product" href="#">WordPress</a>
+							</div>
+							<div class="release__item-text">
+								Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis,
+								leo quam aliquet congue.
+							</div>
+						</div>
+						<div class="release__item-price">
+							<div>
+								<a class="price" href="#">$10 - $50</a>
+								<a class="heart" href="#">46</a>
+								<a class="cart" href="#">634</a>
+							</div>
+							<div class="rate-star"></div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 

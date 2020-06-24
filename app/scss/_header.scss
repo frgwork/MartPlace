@@ -588,5 +588,26 @@
 }
 //! fslaider end
 //! followers start
+.followers {
+   padding: 120px 0;
+   background-color: #eff1f5;
+   &__products-box {
+      display: flex;
+   }
+   &__header {
+      margin-bottom: 50px;
+   }
+   &__title {
+      color: #000000;
+      font-size: 30px;
+      line-height: 32px;
+   }
+   &__control {
+      width: 110px;
+      height: 45px;
+      border-radius: 23px;
+      background-color: #0674ec;
+   }
+}
 
 //! followers end

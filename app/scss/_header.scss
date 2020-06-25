@@ -668,7 +668,71 @@
 //! followers end
 //! cloud start
 .cloud {
-   padding: 100px 0 200px;
+   padding: 100px 0 100px;
    background-color: #212225;
+   &__box {
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      align-items: center;
+   }
+   &__sales {
+      
+      font-size: 36px;
+      line-height: 40px;
+      margin-bottom: 10px;
+      margin-top: 40px;
+      &-a {
+         color: #feb71d;
+      }
+      &-b {
+         color: #58c9e9;
+      }
+      &-c {
+         color: #77de51;
+      }
+      &-d {
+         color: #ff6a6d;
+      }
+   }
+   &__item {
+      span {
+         color: #fff;
+         font-size: 18px;
+         line-height: 20px;
+      }
+   }
+   &__icon-a {
+      &::before {
+         content: "\f0b1";
+         font-family: "icomoon" !important;
+         color: #feb71d;
+         font-size: 48px;
+      }
+   }
+   &__icon-b {
+      &::before {
+         content: "\f0ed";
+         font-family: "icomoon" !important;
+         color: #58c9e9;
+         font-size: 48px;
+      }
+   }
+   &__icon-c {
+      &::before {
+         content: "\f118";
+         font-family: "icomoon" !important;
+         color: #77de51;
+         font-size: 48px;
+      }
+   }
+   &__icon-d {
+      &::before {
+         content: "\f0c0";
+         font-family: "icomoon" !important;
+         color: #ff6a6d;
+         font-size: 48px;
+      }
+   }
 }
 //! cloud end

@@ -872,6 +872,105 @@
    }
 }
 //! shopping end
+//! feedback start
 .feedback {
+   &__product {
+      text-align: center;
+   }
    padding: 100px 0;
+   background-color: #fff;
+   &__inner {
+      margin: 60px 0 60px;
+      display: flex;
+   }
+   &__column {
+      flex: 0 0 50%;
+      border-left: 2px solid #0674ec;
+      box-shadow: 0 2px 50px rgba(0, 0, 0, 0.08);
+      border-radius: 4px;
+      background-color: #ffffff;
+      max-width: 555px;
+      & + & {
+         margin-left: 30px;
+      }
+   }
+   &__item {
+      padding: 50px 40px;
+   }
+   &__box {
+      display: flex;
+      align-items: center;
+      position: relative;
+      span::before {
+         content: "\f0e5";
+         font-family: "icomoon" !important;
+         color: #e8e8e8;
+         font-size: 60px;
+         position: absolute;
+         top: 10px;
+         right: 0;
+      }
+   }
+   &__item-img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      overflow: hidden;
+   }
+   &__item-title {
+      font-size: 20px;
+      color: #000;
+   }
+   &__item-text {
+      color: #555;
+      margin-top: 20px;
+   }
+   &__one {
+      margin-left: 20px;
+   }
+   &__item-link {
+      color: #ffffff;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      border-radius: 28px;
+      background-color: #0674ec;
+      padding: 18px 35px;
+   }
 }
+//! feedback end
+//! latest-news start
+.latest-news {
+   background-color: #eff1f5;
+   padding: 120px 0;
+   &__products-box {
+      margin-top: 60px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+   }
+}
+//! latest-news end
+//! money start
+.money {
+   background-color: #fff;
+   padding: 60px 0;
+   &__inner {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+   }
+   &__text {
+      margin-top: 20px;
+      font-size: 24px;
+      color: #000;
+      a {
+         color: #0674ec;
+      }
+      &.sup a {
+         color: #7347c1;
+      }
+   }
+}
+//! money end
+//! ready start
+
+//! ready end

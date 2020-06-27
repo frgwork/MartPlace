@@ -677,7 +677,6 @@
       align-items: center;
    }
    &__sales {
-      
       font-size: 36px;
       line-height: 40px;
       margin-bottom: 10px;
@@ -736,3 +735,143 @@
    }
 }
 //! cloud end
+//! select start
+.select {
+   padding: 120px 0;
+   background-color: #fff;
+   &__inner {
+      margin-top: 60px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+   }
+   &__item {
+      max-width: 361px;
+      padding: 55px 35px 60px;
+      box-shadow: 0 2px 50px rgba(0, 0, 0, 0.08);
+      border-radius: 4px;
+      background-color: #ffffff;
+      margin-bottom: 30px;
+      text-align: center;
+      position: relative;
+      span {
+         font-size: 48px;
+         color: #f2f5fe;
+         position: absolute;
+         top: 20px;
+         left: 20px;
+      }
+      &-title {
+         font-size: 24px;
+         color: #000;
+         margin: 50px 0 30px;
+      }
+      &-text {
+         color: #555555;
+      }
+      &-a {
+         &::before {
+            content: "\f2c3";
+            font-family: "icomoon" !important;
+            color: #0674ec;
+            font-size: 60px;
+         }
+      }
+      &-b {
+         &::before {
+            content: "\f0d0";
+            font-family: "icomoon" !important;
+            color: #7f4ec2;
+            font-size: 60px;
+         }
+      }
+      &-c {
+         &::before {
+            content: "\f023";
+            font-family: "icomoon" !important;
+            color: #77de51;
+            font-size: 60px;
+         }
+      }
+      &-d {
+         &::before {
+            content: "\f080";
+            font-family: "icomoon" !important;
+            color: #feb71d;
+            font-size: 60px;
+         }
+      }
+      &-e {
+         &::before {
+            content: "\f06c";
+            font-family: "icomoon" !important;
+            color: #58c9e9;
+            font-size: 60px;
+         }
+      }
+      &-f {
+         &::before {
+            content: "\f095";
+            font-family: "icomoon" !important;
+            color: #ff6a6d;
+            font-size: 60px;
+         }
+      }
+   }
+}
+//! select end
+//! shopping start
+.shopping {
+   position: relative;
+   height: 560px;
+   &__box {
+      min-height: 560px;
+      color: #fff;
+   }
+   &__sell {
+      position: absolute;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 100px;
+      text-align: center;
+      width: 50%;
+      height: 100%;
+      top: 0;
+      left: 0;
+   }
+   &__title {
+      font-size: 36px;
+      margin-top: 50px;
+   }
+   &__text {
+      max-width: 580px;
+      margin: 35px auto;
+   }
+   &__shopping {
+      position: absolute;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 100px;
+      text-align: center;
+      width: 50%;
+      height: 100%;
+      top: 0;
+      right: 0;
+   }
+   &__link {
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      border-radius: 28px;
+      background-color: #ffffff;
+      color: #0674ec;
+      padding: 17px 25px;
+      &.shop {
+         color: #7347c1;
+      }
+   }
+}
+//! shopping end
+.feedback {
+   padding: 100px 0;
+}
